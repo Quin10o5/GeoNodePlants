@@ -7,29 +7,41 @@ This tool allows you to procedurally generate pine trees with leaf cards of aliv
 
 How to use:
 -------------------
-Height is the overall height of the tree.
+**Height** is the overall height of the tree.
 
-Initial Resolution is the resampling of the initial curve for the initial deforming.
+**Initial Resolution** is the resampling of the initial curve for the initial deforming.
 
-Initial Noise Scale is how much the initial trunk is deformed.
+**Initial Noise Scale** is how much the initial trunk is deformed.
 
-Initial Noise Over Distance is a ratio of how much the factor will play into how much the noise can affect the tree.
+**Initial Noise Over Distance** is a ratio of how much the factor will play into how much the noise can affect the tree.
 
-W is the random seed for everything.
+**W** is the random seed for everything.
 
-First Branch Density is how many branches appear on the tree, dead or alive.
+**First Branch Density** is how many branches appear on the tree, dead or alive.
 
-First Branch Length is how long the longest of those branches will be.
+**First Branch Length** is how long the longest of those branches will be.
 
-Branch Start Height is the minimum height of the tree for branches to start spawning.
+**Branch Start Height** is the minimum height of the tree for branches to start spawning.
 
-Trunk Thickness is the radius of the trunk's thickness at the base.
+**Trunk Thickness** is the radius of the trunk's thickness at the base.
 
-Thick Branch Chance is the chance for each leaf card to also generate an actual geometry branch.
+**Thick Branch Chance** is the chance for each leaf card to also generate an actual geometry branch.
 
-Min and Max are used to decide whether the branches will be dead or alive. The lower the Min, the more branches will be dead, and the higher the Max, the more branches will be alive.
+**Min** and **Max** are used to decide whether the branches will be dead or alive. The lower the **Min**, the more branches will be dead, and the higher the **Max**, the more branches will be alive.
 
-Trunk Resolution is the resolution of the trunk, and Branch Resolution is the resolution of the branch. Both of those are a round resolution.
+**Trunk Resolution** is the resolution of the trunk, and **Branch Resolution** is the resolution of the branch. Both of those are a round resolution.
+
+Screenshots:
+-------------------
+Generated trees in Blender:
+
+![Blender trees, one fully dead](Screenshots/Blender/Screenshot%202026-10-01%20133522.png)
+
+The same trees in Unreal:
+
+![Pine trees in Unreal](Screenshots/HighresScreenshot00000.png)
+
+![Close-up of dead and living branches in Unreal](Screenshots/HighresScreenshot00001.png)
 
 
 Write Up:
