@@ -1,4 +1,4 @@
-How to Use the Tree Gen
+MI 337 Project 1
 Quinten Ruff
 
 -------------------
