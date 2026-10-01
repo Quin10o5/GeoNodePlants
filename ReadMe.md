@@ -1,5 +1,4 @@
 MI 337 Project 1
-Quinten Ruff
 
 -------------------
 This tool allows you to procedurally generate pine trees with leaf cards of alive or dead branches and many other adjustable features like height, branch thickness and density, etc.
